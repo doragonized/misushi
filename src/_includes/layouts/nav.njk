@@ -1,10 +1,15 @@
 {% set navPages = collections.all | eleventyNavigation %}
 <div class="nav">
-  {%- for elemento in navPages %}
-    <a href="{{ elemento.url | url }}"
-      {% if elemento.url == page.url %} class="activo"{% endif %}
-    >
-      {{ elemento.title }}
-    </a>
-  {%- endfor %}
+
+  <div class="logo"><img src="images/logo.png"></div>
+
+  <div class="nav-links"> 
+    {%- for elemento in navPages %}
+      <a href="{{ elemento.url | url }}"
+        {% if elemento.url == page.url %} class="activo"{% endif %}
+      >
+        {{ elemento.title }}
+      </a>
+    {%- endfor %}
+  </div>
 </div>
