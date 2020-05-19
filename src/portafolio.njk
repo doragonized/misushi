@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+title: Portfolio
+eleventyNavigation:
+    key: portafolio
+    title: Portafolio
+---
+
+<h1>Portfolio</h1>
+<p>
+    Esto es la página del portfolio
+</p>
+
+{% for elementoActual in autores %}
+    {% set datosficha = elementoActual %}
+    {% include "./_includes/ficha.njk" %}
+{% endfor %}

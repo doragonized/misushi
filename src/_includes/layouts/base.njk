@@ -1,0 +1,12 @@
+{% include "./header.njk" %}
+
+  {% set navegacionStatus = "en páginas interiores" %}
+  {% include "./nav.njk" %}
+
+  <div class="container">
+  {{ content | safe }}
+  </div>
+
+
+
+  {% include "./footer.njk" %}
