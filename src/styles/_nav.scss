@@ -35,3 +35,17 @@
     width: auto;
     }
 }
+
+@media (min-width: 700px) and (max-width: 999px) {
+    
+    .nav {
+        display: none;
+    
+        a {
+            display: none;
+        }
+    
+    }
+   
+
+}
