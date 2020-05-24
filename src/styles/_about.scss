@@ -1,0 +1,40 @@
+.about-info {
+    display: block;
+}
+
+.about-box {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filosofia, .profesionales, .productos, .medioambiente{
+    font-size: var(--size-body);
+    text-align: center;
+
+    img{
+        width: 47px;
+        height: 47px;
+    }
+}
+
+.filosofia, .profesionales {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.productos, .medioambiente {
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+
+.filosofia, .productos {
+    margin-right: 70px;
+    margin-left: 200px;
+}
+
+.profesionales, .medioambiente {
+    margin-right: 200px;
+    margin-left: 70px;
+}
+

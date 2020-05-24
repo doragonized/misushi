@@ -4,3 +4,18 @@ body {
     font-family: 'Circular Std', sans-serif;
     margin: 0;
 }
+
+h2{
+    font-family: var(--font2);
+    font-size: var(--size-title);
+    color: var(--orange);
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3{
+    color: var(--orange);
+    font-size: var(--size-body);
+    margin-top: 5px;
+}
