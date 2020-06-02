@@ -31,21 +31,94 @@
     margin-left: 60px;
 
     img {
-    height: 90px;
-    width: auto;
+      width: auto;
+      height: 90px;
     }
 }
 
-@media (min-width: 700px) and (max-width: 999px) {
-    
-    .nav {
-        display: none;
-    
-        a {
-            display: none;
-        }
-    
+.nav-phone {
+    display: none;
+}
+
+@media (max-width: 700px) { 
+
+  .nav { display: none }
+
+  .nav-phone {
+      display: flex;
+  }
+
+  /*
+
+  .menu-nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: white;
+    padding: 1rem 2rem;
+    transform: translateX(-250px);
+    transition: transform .3s;
+  }
+  
+  .menu-nav.visible{
+    transform: translateX(0);
+  }
+  
+  .menu-nav ul{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu-nav li{
+    margin-bottom: 1rem;
+  }
+  
+  .menu-nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .show-menu{
+    background-color: transparent;
+    color: white;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: .3rem;
+    cursor: pointer;
+
+    img{
+        width: 26px;
+        height: 26px;
     }
-   
+  }
+  
+  .close-menu{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+
+  */
+
+  .logo-phone {
+      margin-left: auto;
+      margin-right: auto;
+
+      img{
+          width: auto;
+          height: 70px;
+      }
+  }
+
+
 
 }
