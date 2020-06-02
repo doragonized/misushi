@@ -46,10 +46,9 @@
 
   .nav-phone {
       display: flex;
+      margin-top: 20px;
+      margin-bottom: 20px;
   }
-
-  /*
-
   .menu-nav{
     position: fixed;
     top: 0;
@@ -58,7 +57,7 @@
     width: 250px;
     background-color: white;
     padding: 1rem 2rem;
-    transform: translateX(-250px);
+    transform: translateX(250px);
     transition: transform .3s;
   }
   
@@ -76,22 +75,23 @@
   }
   
   .menu-nav a{
-    color: white;
-    font-weight: bold;
+    color: var(--lightgray);
+    font-family: var(--font1);
     text-decoration: none;
+
   }
   
   .show-menu{
     background-color: transparent;
-    color: white;
     padding: .5rem 1rem;
     border: 0;
     border-radius: .3rem;
     cursor: pointer;
+    margin-right: auto;
 
     img{
-        width: 26px;
-        height: 26px;
+        width: auto;
+        height: 45px;
     }
   }
   
@@ -99,15 +99,13 @@
     background-color: transparent;
     border: 0;
     padding: 0;
-    color: white;
+    color: var(--orange);
     font-size: 2rem;
     cursor: pointer;
     position: absolute;
     right: 1rem;
     top: 0;
   }
-
-  */
 
   .logo-phone {
       margin-left: auto;
@@ -117,6 +115,15 @@
           width: auto;
           height: 70px;
       }
+  }
+
+  .shopping-phone {
+    margin-left: auto;
+  
+    img{
+      width: auto;
+      height: 70px;
+    }
   }
 
 
