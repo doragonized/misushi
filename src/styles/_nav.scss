@@ -52,13 +52,19 @@
   .menu-nav{
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     bottom: 0;
-    width: 250px;
+    width: 700px;
     background-color: white;
-    padding: 1rem 2rem;
-    transform: translateX(250px);
+    padding: 120px 1rem 1rem 1rem;
+    text-align: center;
+    transform: translateX(-700px);
     transition: transform .3s;
+
+      img{
+        width: auto;
+          height: 70px;
+      }
   }
   
   .menu-nav.visible{
@@ -67,18 +73,22 @@
   
   .menu-nav ul{
     list-style: none;
-    padding-left: 0;
+    padding-inline-start: 0;
   }
   
   .menu-nav li{
     margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-bottom: 1px solid var(--orange);
   }
   
   .menu-nav a{
     color: var(--lightgray);
     font-family: var(--font1);
+    font-size: var(--size-body);
     text-decoration: none;
-
   }
   
   .show-menu{
@@ -100,10 +110,11 @@
     border: 0;
     padding: 0;
     color: var(--orange);
-    font-size: 2rem;
+    font-size: 3rem;
     cursor: pointer;
     position: absolute;
-    right: 1rem;
+    right: 2rem;
+    top: 5rem;
     top: 0;
   }
 
