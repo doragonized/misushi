@@ -148,3 +148,25 @@
 
 }
 
+
+@media (max-width: 1000px) { 
+
+    .shop-info {
+        display: block;
+    }
+
+    .shop-product, .shop-price {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .shop-product {
+        width: 90%;
+    }
+
+    .shop-price {
+        width: 100%;
+    }
+
+}
+
