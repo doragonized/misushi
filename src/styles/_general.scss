@@ -1,9 +1,10 @@
 @font-face {
-    font-family: Happy Camper;
-    src: url(../fonts/happy_camper/happy-camper-regular-webfont.woff) format("woff"),
-        url(../fonts/happy-camper-regular-webfont.woff2) format("woff2");
-    font-weight: bold;
+    font-family: 'Happy Camper';
+    src: url('../fonts/happy-camper-regular-webfont.woff2') format('woff2'),
+         url('../fonts/happy-camper-regular-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+
 }
 
 body {
